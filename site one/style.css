@@ -1,0 +1,79 @@
+    
+    /* body */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+    /* Header Section */
+section{
+    height: 500px;
+    padding-bottom: 150px;
+    
+}
+  
+.orange-highlight{
+    color: orange;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.header{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+/* Big Dream Section */
+.dream{
+    
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* Experiences section */
+.Experiences{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-image: url("img/exp-bg.png");
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+#Full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato) ;
+    border-image-slice: 1;
+}
+#Baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
